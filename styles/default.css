@@ -3,4 +3,20 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.home-container {
+    background-image: url("/images/IMG_0943.JPG");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+}
+h1 {
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 400;
 }
